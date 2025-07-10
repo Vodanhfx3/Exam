@@ -30,8 +30,8 @@ public class ExamAttempt {
     @Column(name = "answer")
     private List<Integer> answers;
 
-    private int score;   // primitive int for NOT NULL
-    private int tries;   // primitive int for NOT NULL
+    private int score;
+    private int tries;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
